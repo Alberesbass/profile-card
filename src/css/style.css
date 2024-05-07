@@ -1,10 +1,13 @@
+body{
+  height: 100vh;
+}
+
 main {
   height: 100vh;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-
   background-color: var(--background-color);
 }
 
@@ -13,6 +16,7 @@ main {
   height: 380px;
   border-radius: 12px;
   background-color: #fff;
+  
 }
 
 .card .info-profile {
