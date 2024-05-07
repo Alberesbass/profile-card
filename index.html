@@ -1,34 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Cartão de apresentação" />
+    <meta name="keywords" content="HTML, CSS" />
+    <meta name="author" content="Alberes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Profile Card</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="./src/css/reset.css">
-<link rel="stylesheet" href="./src/css/style.css">
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="./src/img/favicon-32x32.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/variables.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+  </head>
+  <body>
     <main>
-        <div class="card">
-            <img class="card-photo" src="./src/img/image-victor.jpg" alt="Foto do Perfil">
-            <p>Victor Creat <span>26</span></p>
-            <p>London</p>
-            <hr>
-            <ul>
-                <li>80K</li>
-                <li>803K</li>
-                <li>1.4K</li>
-            </ul>
-            <ul>
-                <li>Followers</li>
-                <li>Likes</li>
-                <li>Photos</li>
-            </ul>
+      <div class="card">
+        <div class="info-profile">
+          <img
+            class="card-photo"
+            src="./src/img/image-victor.jpg"
+            alt="Foto do Perfil"
+          />
+          <p>Victor Crest <span>26</span></p>
+          <p class="country">London</p>
         </div>
+
+        <hr />
+
+        <section class="info-card">
+          <div class="numbers">
+            <ul>
+              <li>80K</li>
+              <li>803K</li>
+              <li>1.4K</li>
+            </ul>
+          </div>
+
+          <div class="topics">
+            <ul>
+              <li>Followers</li>
+              <li>Likes</li>
+              <li>Photos</li>
+            </ul>
+          </div>
+        </section>
+      </div>
     </main>
-</body>
+  </body>
 </html>

@@ -1,5 +1,77 @@
-:root {
-    --background-color: hsl(185, 75%, 39%);
-    --text-color: hsl(227, 10%, 46%);
+main {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--background-color);
 }
 
+.card {
+  width: 360px;
+  height: 380px;
+  border-radius: 12px;
+  background-color: #fff;
+}
+
+.card .info-profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card .card-photo {
+  width: 100px;
+  border-radius: 50%;
+  margin: 30px 0 17px 0;
+}
+
+.card .info-profile p {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.card .info-profile span {
+  color: var(--text-color);
+}
+
+.card .info-profile .country {
+  color: var(--text-color);
+  font-weight: 400;
+  margin: 20px 0 40px 0;
+}
+
+.card .info-card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 22px 10px 0 10px;
+}
+
+.card .info-card ul {
+  width: 350px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card .info-card .numbers .teste {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card .info-card .topics .teste2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.info-card .numbers {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.info-card .topics {
+  color: var(--text-color);
+}
